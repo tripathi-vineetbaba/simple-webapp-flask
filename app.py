@@ -2,7 +2,7 @@ import os
 from flask import Flask
 app = Flask(__name__)
 import yaml
-with open('/config/config.yml') as data:
+with open('config.yml') as data:
      config=yaml.safe_load(data)
 
 
